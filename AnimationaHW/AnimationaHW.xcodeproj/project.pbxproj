@@ -13,6 +13,8 @@
 		CCFF33D4280086EA00A413C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFF33D2280086EA00A413C0 /* Main.storyboard */; };
 		CCFF33D6280086EF00A413C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFF33D5280086EF00A413C0 /* Assets.xcassets */; };
 		CCFF33D9280086EF00A413C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFF33D7280086EF00A413C0 /* LaunchScreen.storyboard */; };
+		CCFF33E228009FFC00A413C0 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF33E028009FFC00A413C0 /* CardViewController.swift */; };
+		CCFF33E328009FFC00A413C0 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFF33E128009FFC00A413C0 /* CardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CCFF33D5280086EF00A413C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCFF33D8280086EF00A413C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCFF33DA280086EF00A413C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFF33E028009FFC00A413C0 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		CCFF33E128009FFC00A413C0 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CCFF33D5280086EF00A413C0 /* Assets.xcassets */,
 				CCFF33D7280086EF00A413C0 /* LaunchScreen.storyboard */,
 				CCFF33DA280086EF00A413C0 /* Info.plist */,
+				CCFF33E028009FFC00A413C0 /* CardViewController.swift */,
+				CCFF33E128009FFC00A413C0 /* CardViewController.xib */,
 			);
 			path = AnimationaHW;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFF33E328009FFC00A413C0 /* CardViewController.xib in Resources */,
 				CCFF33D9280086EF00A413C0 /* LaunchScreen.storyboard in Resources */,
 				CCFF33D6280086EF00A413C0 /* Assets.xcassets in Resources */,
 				CCFF33D4280086EA00A413C0 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFF33E228009FFC00A413C0 /* CardViewController.swift in Sources */,
 				CCFF33D1280086EA00A413C0 /* ViewController.swift in Sources */,
 				CCFF33CD280086EA00A413C0 /* AppDelegate.swift in Sources */,
 				CCFF33CF280086EA00A413C0 /* SceneDelegate.swift in Sources */,
