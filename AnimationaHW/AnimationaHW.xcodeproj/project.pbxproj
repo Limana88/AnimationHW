@@ -15,6 +15,8 @@
 		CCFF33D9280086EF00A413C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFF33D7280086EF00A413C0 /* LaunchScreen.storyboard */; };
 		CCFF33E228009FFC00A413C0 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF33E028009FFC00A413C0 /* CardViewController.swift */; };
 		CCFF33E328009FFC00A413C0 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFF33E128009FFC00A413C0 /* CardViewController.xib */; };
+		CCFF33E52800B76200A413C0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF33E42800B76100A413C0 /* StartViewController.swift */; };
+		CCFF33E72800D38900A413C0 /* AnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF33E62800D38800A413C0 /* AnimatedTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CCFF33DA280086EF00A413C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCFF33E028009FFC00A413C0 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		CCFF33E128009FFC00A413C0 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		CCFF33E42800B76100A413C0 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CCFF33E62800D38800A413C0 /* AnimatedTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				CCFF33DA280086EF00A413C0 /* Info.plist */,
 				CCFF33E028009FFC00A413C0 /* CardViewController.swift */,
 				CCFF33E128009FFC00A413C0 /* CardViewController.xib */,
+				CCFF33E42800B76100A413C0 /* StartViewController.swift */,
+				CCFF33E62800D38800A413C0 /* AnimatedTransition.swift */,
 			);
 			path = AnimationaHW;
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFF33E52800B76200A413C0 /* StartViewController.swift in Sources */,
 				CCFF33E228009FFC00A413C0 /* CardViewController.swift in Sources */,
 				CCFF33D1280086EA00A413C0 /* ViewController.swift in Sources */,
+				CCFF33E72800D38900A413C0 /* AnimatedTransition.swift in Sources */,
 				CCFF33CD280086EA00A413C0 /* AppDelegate.swift in Sources */,
 				CCFF33CF280086EA00A413C0 /* SceneDelegate.swift in Sources */,
 			);
