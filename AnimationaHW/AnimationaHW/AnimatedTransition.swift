@@ -40,7 +40,7 @@ class AnimatedTransition: NSObject, UIViewControllerAnimatedTransitioning {
         
         UIView.animateKeyframes(withDuration: 0.9, delay: 0, options: .calculationModeLinear) {
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1.5) {
-                firstViewController.customUIView.transform = CGAffineTransform(scaleX: firstViewController.view.center.x, y: firstViewController.view.center.y)
+                firstViewController.customUIView.transform = CGAffineTransform(scaleX: 10, y: 10)
                 view.alpha =  1
             }
         } completion: { _ in
